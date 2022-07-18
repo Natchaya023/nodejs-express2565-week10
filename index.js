@@ -6,7 +6,7 @@ const hostname = "localhost"
 
 //4.Creat Route: http://localhost:5000/
 app.get('/',(req,res)=>{
-    res.writeHead(200).send("Express")
+    res.status(200).send("Express")
     res.send(200).json(
         {
             id: '101',
