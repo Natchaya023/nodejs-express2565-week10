@@ -16,6 +16,6 @@ app.get('/',(req,res)=>{
     )
 })
 
-app.listen(PORT, ()=>{ //5.Make the server listen on port 5000
+app.listen(PORT, () => { //5.Make the server listen on port 5000
     console.log(`Server running at http://${hostname}:${PORT}`)
 })
